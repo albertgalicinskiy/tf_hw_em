@@ -9,3 +9,5 @@ provider "azurerm" {
   features {}
   alias = "provider2"
 }
+
+
