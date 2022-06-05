@@ -1,0 +1,5 @@
+ # resourceGroup
+ terraform import azurerm_resource_group.terraform_tfstate_hw4 /subscriptions/57403a3c-0cbd-4b93-b8ce-b8ebe863efb0/resourceGroups/rg-terraform-state
+
+# storageAccount
+terraform import azurerm_storage_account.hw4tftfstate /subscriptions/57403a3c-0cbd-4b93-b8ce-b8ebe863efb0/resourceGroups/rg-terraform-state/providers/Microsoft.Storage/storageAccounts/hw4tftfstate

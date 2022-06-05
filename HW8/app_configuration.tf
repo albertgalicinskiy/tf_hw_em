@@ -6,4 +6,8 @@ resource "azurerm_app_configuration" "app_configuration" {
   sku                 = var.appconf_sku_name
 
   tags = local.common_tags
+
+provisioner "local-exec" {
+    command = "key_value_app_config.sh ${self.name} ${var.user_name} ${var.user_surename}"
+  }
 }

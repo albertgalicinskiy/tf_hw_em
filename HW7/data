@@ -1,0 +1,11 @@
+data "azurerm_resource_group" "example" {
+  name = "existing"
+}
+
+output "id" {
+  value = data.azurerm_resource_group.example.id
+}
+
+
+The operation "List" is not enabled in this key vault's access policy.
+You are unauthorized to view these contents.

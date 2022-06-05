@@ -1,6 +1,17 @@
-variable "name_surename" {
+# used before hw8
+# variable "name_surename" {
+#   type        = string
+#   description = "username_surename: "
+# }
+
+variable "user_name" {
   type        = string
-  description = "username_surename: "
+  description = "username: "
+}
+
+variable "user_surename" {
+  type        = string
+  description = "user_surename: "
 }
 
 variable "location" {
